@@ -22,5 +22,8 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void swap(int *x, int *y);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void quick_sort_recurssion(int *array, int low, int high, size_t size);
+int partition(int *array, int low, int high, size_t size);
 
 #endif
