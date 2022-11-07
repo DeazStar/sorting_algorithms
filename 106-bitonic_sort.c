@@ -1,7 +1,7 @@
 #include "sort.h"
 #include <stdio.h>
 /**
- * swap - change two values in ascending or descending order
+ * swap_2 - change two values in ascending or descending order
  * @arr: array
  * @item1: item one
  * @item2: item two
@@ -19,7 +19,7 @@ void swap_2(int arr[], int item1, int item2, int order)
 	}
 }
 /**
- * merge - sort bitonic sequences recursively in both orders
+ * merge_order - sort bitonic sequences recursively in both orders
  * @arr: array
  * @low: first element
  * @nelemnt: elements number
