@@ -41,5 +41,6 @@ void heap_sort(int *array, size_t size);
 void csort2(int *array, int **buff, int size, int lsd);
 void csort(int *array, int size, int lsd);
 void radix_sort(int *array, size_t size);
+void swap_2(int arr[], int item1, int item2, int order);
 
 #endif
