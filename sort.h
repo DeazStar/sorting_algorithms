@@ -42,5 +42,7 @@ void csort2(int *array, int **buff, int size, int lsd);
 void csort(int *array, int size, int lsd);
 void radix_sort(int *array, size_t size);
 void swap_2(int arr[], int item1, int item2, int order);
+void merge_order(int arr[], int low, int nelemnt, int order);
+void bitonicsort(int arr[], int low, int nelemnt, int order, int size);
 
 #endif
