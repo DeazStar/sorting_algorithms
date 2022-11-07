@@ -29,6 +29,7 @@ void merge_sort(int *array, size_t size);
 void merge_sort_recurssion(int *array, int low, int high);
 void merge(int *array, int low, int middle, int high);
 void insertion_sort_list(listint_t **list);
-void sort_list(listint_t *current, listint_t *previous, listint_t **list);
+void _swap(int *array, int i, int j);
+void shell_sort(int *array, size_t size);
 
 #endif
