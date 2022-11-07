@@ -45,8 +45,8 @@ void swap_2(int arr[], int item1, int item2, int order);
 void merge_order(int arr[], int low, int nelemnt, int order);
 void bitonicsort(int arr[], int low, int nelemnt, int order, int size);
 void bitonic_sort(int *array, size_t size);
-int hoare_partition(int *array, int first, int last, int size);
-void qs(int *array, ssize_t first, ssize_t last, int size);
+int hoare_partition(int *array, size_t size, int left, int right);
+void hoare_sort(int *array, size_t size, int left, int right);
 void quick_sort_hoare(int *array, size_t size);
 
 #endif
