@@ -38,5 +38,8 @@ void split(int *array, int *buff, int min, int max, int size);
 void merge_sort(int *array, size_t size);
 void check_tree(int *array, size_t size_init, size_t size, size_t i);
 void heap_sort(int *array, size_t size);
+void csort2(int *array, int **buff, int size, int lsd);
+void csort(int *array, int size, int lsd);
+void radix_sort(int *array, size_t size);
 
 #endif
