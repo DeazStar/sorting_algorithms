@@ -36,5 +36,7 @@ void merge(int *array, int *buff, int minL, int maxL, int minR, int maxR);
 void printcheck(int *array, int r1, int r2);
 void split(int *array, int *buff, int min, int max, int size);
 void merge_sort(int *array, size_t size);
+void check_tree(int *array, size_t size_init, size_t size, size_t i);
+void heap_sort(int *array, size_t size);
 
 #endif
